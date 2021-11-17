@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap');
+body {
+    font-family: 'Khand', sans-serif;
+    margin: 0;
+}
+
+#ultimate {
+    margin-left: -28%;
+}
+
+#mbape {
+    margin-left: -20%;
+}
+
+.containar {
+    position: relative;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 3em;
+    background-color: #161616;
+}
+
+.nav {
+    height: 3.75em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #000000;
+    margin-left: 0%;
+    height: 3.5em;
+    width: 100%;
+    box-shadow: 0 0.5px 8px #000000;
+}
+
+.fifa {
+    float: left;
+}
+
+.blank {
+    float: left;
+    margin-right: 20%;
+    overflow: hidden;
+}
+
+.blank1 {
+    float: left;
+    margin: 0 2% 0 2%;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#home {
+    margin-left: 0%;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnavbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    padding-top: 20px;
+    top: 105px;
+}
+
+.subnav-content a {
+    text-align: center !important;
+    float: unset;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    transition: 0.2s;
+    color: #8a4fff;
+}
+
+.subnav:hover .subnavbtn {
+    border-bottom: solid #8a4fff 2px;
+}
+
+.subnav-content a:hover {
+    color: #8a4fff;
+    transition: 0.5s;
+}
+
+.subnav:hover .subnav-content {
+    height: 50px;
+    display: block;
+}
+
+.subnavbtn:hover {
+    border-bottom: solid #8a4fff 2px;
+}
+
+.subnavbtn:hover {
+    border-bottom: solid #8a4fff 2px;
+}
+
+#home:hover {
+    border-bottom: solid #8a4fff 2px;
+}
+
+#contect:hover {
+    border-bottom: solid #8a4fff 2px;
+}
+
+.search {
+    width: 10%;
+    height: 32px;
+    font-size: 22px;
+    background-image: url(https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-21/global_assets/common/navigation/fifa21-primary-horizontal-white-nav.svg);
+    background-size: 140px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    position: absolute;
+}
+
+img {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+}
+
+.pic {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-position: 10px 25px;
+    top: 80px;
+}
+
+.hero {
+    position: absolute;
+    top: 150px;
+    left: 52%;
+    height: 25%;
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 2000;
+    width: 30%;
+    height: 75px;
+    color: white;
+    border-radius: 3px;
+}
+
+.content {
+    text-align: center;
+}
+
+.fa-book {
+    text-align: center;
+    float: left;
+    margin-left: 35%;
+}
+
+.grounds {
+    position: relative;
+}
+
+.background {
+    background-color: white;
+    height: 2655px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.fsection {
+    background-color: black;
+    width: 80%;
+    height: 50%;
+    position: relative;
+    margin-left: 15%;
+}
+
+.forground {
+    position: absolute;
+    width: 80%;
+    height: 1400px;
+    padding-left: 10%;
+    border-radius: 8px;
+}
+
+.learn {
+    border: solid 1px white;
+    color: black;
+    background-color: white;
+    height: 3em;
+    width: 32%;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-left: -5%;
+}
+
+.Watch {
+    border: solid 1px white;
+    color: white;
+    background-color: black;
+    height: 3em;
+    width: 32%;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-left: 5%;
+}
+
+.learn:hover {
+    height: 3.6em;
+    width: 34%;
+}
+
+.Watch:hover {
+    height: 3.6em;
+    width: 34%;
+}
+
+.containar-overlay {
+    position: relative;
+    height: 500px;
+    width: 90%;
+    top: 300px;
+    margin-left: 5%;
+    background-color: white;
+}
+
+.overlay {
+    height: 450px;
+    width: 28%;
+    position: absolute;
+    margin-left: 6%;
+    float: left;
+    overflow: hidden;
+}
+
+.box1 {
+    width: 200%;
+    height: 500px;
+    margin-left: -10%;
+    top: -80px;
+}
+
+#fut {
+    font-size: 35px;
+    position: absolute;
+    top: 350px;
+    text-align: center;
+    left: 40%;
+}
+
+.line {
+    background-image: linear-gradient(to right, #fc531e, #8851f6);
+    top: 440px;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+}
+
+.overlay1 {
+    background-color: white;
+    height: 450px;
+    width: 28%;
+    position: absolute;
+    margin-left: 36%;
+    overflow: hidden;
+}
+
+.box2 {
+    width: 120%;
+    height: 400px;
+    margin-left: -70%;
+    top: -20px;
+}
+
+#fut1 {
+    font-size: 35px;
+    position: absolute;
+    top: 350px;
+    text-align: center;
+    left: 30%;
+    overflow: hidden;
+}
+
+.line1 {
+    background-image: linear-gradient(to right, #fc531e, #8851f6);
+    top: 440px;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+}
+
+.overlay2 {
+    background-color: white;
+    height: 450px;
+    width: 28%;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 66%;
+}
+
+.box3 {
+    width: 100%;
+    height: 500px;
+    margin-left: 0%;
+    top: 0px;
+}
+
+.line2 {
+    background-image: linear-gradient(to right, #fc531e, #8851f6);
+    top: 440px;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+}
+
+.overlay:hover .box1 {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.overlay:hover .line {
+    margin-top: 450px;
+    transition: 5s;
+}
+
+.overlay1:hover .box2 {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.overlay1:hover .line1 {
+    margin-top: 450px;
+    transition: 5s;
+}
+
+.overlay2:hover .box3 {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.overlay2:hover .line2 {
+    margin-top: 450px;
+    transition: 5s;
+}
+
+.ea-hero {
+    width: 100%;
+    height: 400px;
+    background-color: #161616;
+    position: relative;
+    top: 400px;
+}
+
+.get {
+    position: absolute;
+    color: white;
+    font-size: 45px;
+    margin-left: 10%;
+    margin-top: 80px;
+    letter-spacing: 2px;
+}
+
+.play {
+    position: absolute;
+    color: white;
+    margin-top: 230px;
+    margin-left: 10%;
+    letter-spacing: 0px;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 10;
+    font-display: swap;
+}
+
+.cont {
+    height: 50px;
+    width: 10%;
+    margin-left: 10%;
+    position: relative;
+    top: 290px;
+}
+
+.join {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    border: solid white 2px;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.link {
+    position: absolute;
+    top: 10px;
+    margin-left: 25%;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.cont:hover .join {
+    transform: scale(1.2);
+}
+
+.join:hover {
+    transform: scale(1.2);
+}
+
+.foot {
+    margin-top: 500px;
+    background-color: white;
+    height: 1400PX;
+    width: 100%;
+    position: relative;
+}
+
+.fix {
+    height: 800px;
+    width: 100%;
+}
+
+.sign-up {
+    top: -1000px;
+    margin-left: 10%;
+    position: absolute;
+    color: white;
+}
+
+.email {
+    position: absolute;
+    margin-top: 1.5px;
+    height: 50px;
+    width: 100%;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.email-back {
+    height: 52px;
+    width: 40%;
+    margin-left: 53%;
+    position: relative;
+    top: 170px;
+}
+
+.email-for {
+    position: absolute;
+    height: 55px;
+    width: 100%;
+    border: solid white 2px;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.date {
+    position: absolute;
+    top: 40px;
+    margin-left: 25%;
+}
+
+.text {
+    position: absolute;
+    top: 400px;
+    margin-left: 80%;
+}
+
+input:focus {
+    border: 0px;
+    outline: none;
+}
+
+.email-back:hover .email-for {
+    transform: scale(1.08);
+}
+
+.date-back {
+    height: 52px;
+    width: 40%;
+    margin-left: 56%;
+    position: relative;
+    top: 210px;
+    float: left;
+}
+
+.date-for {
+    position: absolute;
+    height: 55px;
+    width: 40%;
+    border: solid white 2px;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.date {
+    position: absolute;
+    margin-left: 1.8%;
+    margin-top: -37px;
+    height: 50px;
+    width: 60%;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.date-back:hover .date-for {
+    transform: scale(1.08);
+}
+
+.text-back {
+    height: 52px;
+    width: 25%;
+    left: 1%;
+    position: relative;
+    top: 157.5px;
+    float: right;
+}
+
+.text-for {
+    position: absolute;
+    margin-left: 0%;
+    height: 55px;
+    width: 60%;
+    border: solid white 2px;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.text {
+    position: absolute;
+    left: 1.2%;
+    margin-top: -397px;
+    height: 50px;
+    width: 43%;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+}
+
+.text-back:hover .text-for {
+    transform: scale(1.08);
+}
+
+.cheakbox {
+    height: 52px;
+    width: 25%;
+    left: 52%;
+    position: relative;
+    top: 250px;
+}
+
+.sub-back {
+    height: 58px;
+    width: 10%;
+    border-radius: 4px;
+    margin-left: 55%;
+    position: relative;
+    background-color: #8a4fff;
+    top: 330px;
+}
+
+.sub-for {
+    position: absolute;
+    background-color: #8a4fff;
+    height: 58px;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.submit {
+    position: absolute;
+    top: 10px;
+    margin-left: 25%;
+    background-color: #8a4fff;
+}
+
+.sub-but {
+    margin-top: 4px;
+    margin-left: -5%;
+    border: 0px;
+    outline: none;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1.5px;
+}
+
+.sub-back:hover .sub-for {
+    transform: scale(1.08);
+}
+
+.gred {
+    top: 700px;
+    height: 500px;
+}
+
+.gred-svg {
+    top: 730px;
+    height: 100px;
+}
+
+.gred-head {
+    position: absolute;
+    top: 850px;
+    left: 42%;
+    font-size: 45px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.gred-para {
+    position: absolute;
+    top: 1000px;
+    left: 29%;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.gred-ic {
+    position: absolute;
+    top: 1200px;
+    background-color: #252525;
+    width: 100%;
+    height: 250px;
+}
+
+.fa-twitch {
+    position: absolute;
+    color: #fefefe;
+    margin-left: 35%;
+    font-size: 40px;
+    float: left;
+}
+
+.fa-twitter {
+    position: absolute;
+    color: #fefefe;
+    margin-left: 45%;
+    font-size: 35px;
+    float: left;
+}
+
+.fa-instagram {
+    position: absolute;
+    color: white;
+    margin-left: 55%;
+    font-size: 35px;
+    float: left;
+}
+
+.fa-facebook-f {
+    position: absolute;
+    color: white;
+    margin-left: 65%;
+    font-size: 35px;
+}
+
+.fa-twitch:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.fa-twitter:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.fa-twitch .twtch {
+    visibility: hidden;
+    width: 10px;
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 20px;
+    border: solid white 1px;
+    border-color: white;
+}
+
+.fa-twitch:hover .twtch {
+    visibility: visible;
+}
+
+.fa-twitter .twite {
+    visibility: hidden;
+    width: 10px;
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 20px;
+    border: solid white 1px;
+    border-color: white;
+}
+
+.fa-twitter:hover .twite {
+    visibility: visible;
+}
+
+.fa-instagram:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.fa-instagram .inst {
+    visibility: hidden;
+    width: 10px;
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 20px;
+    border: solid white 1px;
+    border-color: white;
+}
+
+.fa-instagram:hover .inst {
+    visibility: visible;
+}
+
+.fa-facebook-f:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.fa-facebook-f .face {
+    visibility: hidden;
+    width: 10px;
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 20px;
+    border: solid white 1px;
+    border-color: white;
+}
+
+.fa-facebook-f:hover .face {
+    visibility: visible;
+}
+
+.last {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    top: 10px;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 5%;
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    float: left;
+}
